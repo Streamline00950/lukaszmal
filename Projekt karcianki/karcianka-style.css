@@ -1,0 +1,84 @@
+@font-face { font-family: LifeCraft_Font; src: url('LifeCraft_Font.ttf'); }
+body
+{
+	margin: 0;
+	background-color: #333333;
+    font-size: 28px;
+	font-family: LifeCraft_Font;
+	background-image:url("img/wallpaper.jpg");
+}
+
+h1
+{
+	font-size:64px;
+	color:#e9b64a;
+	text-align:center;
+	margin-top:10px;
+	letter-spacing:5px;
+}
+p
+{
+	text-align:center;
+	color:white;
+	margin-top:-45px;
+}
+
+.container
+{
+	width:620px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;
+	background-position: center;
+	padding:10px;
+	background-image:url("img/board4.png");
+	text-align:center;
+}
+
+.board
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:700xp;
+	float:left;
+	
+}
+
+.cardA
+{
+	display:inline-block;
+	width:90px;
+	height:145px;
+	margin:3px;
+	background-image:url("img/karta.png");
+	border-radius:5px;
+	background-position: center;
+	border: 1px solid #0e1a2d;
+	cursor:default;
+	filter:brightness(120%);
+	transition: all .3s ease-in-out;
+	
+}
+
+.card
+{
+	display:inline-block;
+	width:90px;
+	height:145px;
+	margin:3px;
+	background-image:url("img/karta.png");
+	border-radius:5px;
+	background-position: center;
+	border: 1px solid #0e1a2d;
+	cursor:pointer;
+	filter:brightness(90%);
+	transition: all .3s ease-in-out;
+}
+.card:hover
+{
+	filter:brightness(130%);
+	border: 1px solid #e9b64a;
+	
+}
+
+
